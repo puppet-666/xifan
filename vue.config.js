@@ -17,6 +17,8 @@ const cdn = [
 module.exports = {
     productionSourceMap:false,
     chainWebpack: config => {
+        config.plugins.delete('prefetch')
+        // config.plugins.delete('preload')
         // 挂载cdn外部库
         config.plugin('html')
             .tap(args => {
