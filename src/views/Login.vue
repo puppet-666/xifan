@@ -20,7 +20,6 @@
           label="密码"
           placeholder="请输入密码"
           right-icon="question"
-          @click-right-icon="showPopup"
         />
       </van-cell-group>
       <van-button round style="margin-top:80px;width:150px" color="black" @click="userLogin()">登陆</van-button>
