@@ -1,5 +1,5 @@
 <template>
-    <div>测试jenkins</div>
+    <div>webhook测试</div>
 </template>
 <script>
 export default {
