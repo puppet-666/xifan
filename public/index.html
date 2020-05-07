@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="referrer" content="no-referrer"/>
+    <link rel="icon" href="<%= BASE_URL %>fanicon.ico">
+    <!-- icontfont -->
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1469695_818ly2ppc0p.css">
+    <style>
+      body{
+        background: #f8f8f8;
+      }
+    </style>
+    <title>嘻饭</title>
+    <% for(var js of htmlWebpackPlugin.options.cdn) { %>
+      <script src="<%=js%>"></script>
+    <% } %>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but xifan doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
