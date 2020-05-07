@@ -1,5 +1,5 @@
 <template>
-    <div>webhook测试</div>
+    <div>webhook测试2</div>
 </template>
 <script>
 export default {
