@@ -40,10 +40,10 @@
           height="120px"
         />
         <p>
-          <van-icon class-prefix="my-icon" name="yanjingnanzi" />菜鸡前端小庞
+          <van-icon class-prefix="my-icon" name="yanjingnanzi" />前端小庞
         </p>
         <p>
-          <van-icon class-prefix="my-icon" name="yanjingnanzi" />苦逼后端小朱
+          <van-icon class-prefix="my-icon" name="yanjingnanzi" />后端小朱
         </p>
       </div>
     </van-dialog>
