@@ -154,7 +154,7 @@ export default {
   },
   methods: {
     handleClick(){
-      Toast("aaaaa");
+      
     },
     changeAboutUs() {
       this.showAboutUs = true;
