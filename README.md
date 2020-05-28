@@ -1,7 +1,5 @@
 # xifan
 
-## testJenkins
-
 ## Project setup
 ```
 npm install
